@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Sort - Color Puzzle Game</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="assets/img/puzzle.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"
+      integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"
+      integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="container" id="main">
+      <header class="header">
+        <div class="burger burgerSlider">
+          <div class="burgerBox">
+            <div class="burgerInner"></div>
+          </div>
+        </div>
+        <nav class="header__nav menu">
+          <ul class="header-list menu-list">
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#main">HOME</a>
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#reviews">REVIEWS</a>
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#about"
+                >HOW TO PLAY</a
+              >
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#game">About</a>
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#gallery">GALLERY</a>
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#features"
+                >FEATURES</a
+              >
+            </li>
+            <li class="header-list__item menu-item">
+              <a class="header__link menu-link text" href="#trailer">TRAILER</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <h1 class="hero__title title">Cake Sort - Color Puzzle Game</h1>
+        <p class="hero__description text">
+          Hey, cake is always a good idea, for parties, for special days and of
+          course for games too!
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.falcon.dm.water.cake.sort.puzzle&hl=en"
+          class="hero-link google-play__link"
+        >
+          <img
+            src="assets/img/google-play-icon.png"
+            alt=""
+            class="hero-link__icon google-play__icon"
+          />
+        </a>
+        <div class="hero__background">
+          <div class="background">
+            <img src="assets/img/puzzle.png" alt="" srcset="" />
+          </div>
+          <div class="background">
+            <img src="assets/img/puzzle.png" alt="" srcset="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="disclaimer">
+        <p class="disclaimer__text text">
+          <span>DISCLAIMER:</span>
+          <span>cakesortplay.com</span> IS A PLATFORM FOR HAVING FUN. THE
+          PROBABILITY OF WINNING PLAYING THIS APP CANNOT BE CONSIDERED THE SAME
+          AS WINNING IN REAL LIFE GAMES. APP IS AVAILABLE TO ADULT AUDIENCES
+          OVER 18 YEARS OF AGE. ENJOY PLAYING THIS FREE APP!
+        </p>
+      </div>
+
+      <section class="about" id="game">
+        <h2 class="about__title title">Cake Sort</h2>
+        <p class="about__text text">
+          Cake Sort is a new kind of merge-sorting game. It's not match 3
+          puzzles, it's match 6 with fun and addictive color-sort gameplay. Not
+          murmurous as water sort, nor twittering as bird sort, but cake sort
+          takes you into a bakery where there are hundreds of 3D colorful cake
+          and pie slices to sort and combine. As a cake maker, try to sort the
+          colored slices on the glass plate until having a completely yummy cake
+          to serve customers.
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.falcon.dm.water.cake.sort.puzzle&hl=en"
+          class="about-link google-play__link"
+        >
+          <img
+            class="about-link__icon google-play__icon"
+            src="assets/img/google-play-icon.png"
+            alt=""
+          />
+        </a>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <h2 class="reviews__title title">PLAYER REVIEWS</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <p class="reviews__nickname highlight">Abdul Ahad Aadi</p>
+            <p class="reviews__review"><span class="typed-text text"></span></p>
+            <div class="stars"></div>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__nickname highlight">Luseane Akauola Laula</p>
+            <p class="reviews__review"><span class="typed-text text"></span></p>
+            <div class="stars"></div>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__nickname highlight">K C</p>
+            <p class="reviews__review"><span class="typed-text text"></span></p>
+            <div class="stars"></div>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__nickname highlight">Joana Licciardi</p>
+            <p class="reviews__review"><span class="typed-text text"></span></p>
+            <div class="stars"></div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="features" id="features">
+        <h2 class="features__title title">GAME FEATURES</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <span class="icon">🍰</span>
+            <p class="features__text text">
+              Many delicious cakes to unlock: chocolate cake, brownie, red
+              velvet, Passion Fruit mousse and many more++
+            </p>
+          </li>
+          <li class="features__item">
+            <span class="icon">📚</span>
+            <p class="features__text text">
+              100++ recipes to discover: french desserts, Italian cuisines,
+              Japanese sushi, etc.
+            </p>
+          </li>
+          <li class="features__item">
+            <span class="icon">🍀</span>
+            <p class="features__text text">
+              Spin the lucky wheel and earn great rewards
+            </p>
+          </li>
+          <li class="features__item">
+            <span class="icon">👆🏼</span>
+            <p class="features__text text">One finger control</p>
+          </li>
+          <li class="features__item">
+            <span class="icon">🎮</span>
+            <p class="features__text text">FREE & EASY TO PLAY</p>
+          </li>
+          <li class="features__item">
+            <span class="icon">🌐</span>
+            <p class="features__text text">
+              NO wifi needed - offline puzzle game
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="trailer" id="trailer">
+        <div class="trailer__title title">TRAILER</div>
+        <p class="trailer__description text">
+          Check out the features and possibilities of Cake Sort by watching our
+          trailer!
+        </p>
+        <div class="trailer__bottom">
+          <div class="video-container">
+            <video autoplay muted loop controls>
+              <source src="assets/video/trailer.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="trailer__wrapper">
+            <p class="text">
+              Cake Sort is a new kind of merge-sorting game. It's not match 3
+              puzzles, it's match 6 with fun and addictive color-sort gameplay.
+              Not murmurous as water sort, nor twittering as bird sort, but cake
+              sort takes you into a bakery where there are hundreds of 3D
+              colorful cake and pie slices to sort and combine. As a cake maker,
+              try to sort the colored slices on the glass plate until having a
+              completely yummy cake to serve customers.
+            </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.falcon.dm.water.cake.sort.puzzle&hl=en"
+              class="about-link google-play__link"
+            >
+              <img
+                class="about-link__icon google-play__icon"
+                src="assets/img/google-play-icon.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider" id="gallery">
+        <div class="slider__inner">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <img src="assets/img/slide-1.webp" alt="" srcset="" />
+            </li>
+            <li class="slider__item">
+              <img src="assets/img/slide-2.webp" alt="" srcset="" />
+            </li>
+            <li class="slider__item">
+              <img src="assets/img/slide-3.webp" alt="" srcset="" />
+            </li>
+            <li class="slider__item">
+              <img src="assets/img/slide-4.webp" alt="" srcset="" />
+            </li>
+            <li class="slider__item">
+              <img src="assets/img/slide-5.webp" alt="" srcset="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="instructions" id="about">
+        <div class="instructions__info">
+          <h2 class="instructions__title title">HOW TO PLAY</h2>
+          <ul class="instructions__list">
+            <li class="instructions__item">
+              <span class="icon">🎯</span>
+              <p class="instructions__text text">
+                Move the plates in the right direction
+              </p>
+            </li>
+            <li class="instructions__item">
+              <span class="icon">🍰</span>
+              <p class="instructions__text text">Merge six similar slices</p>
+            </li>
+            <li class="instructions__item">
+              <span class="icon">🚧</span>
+              <p class="instructions__text text">Try not to get stuck</p>
+            </li>
+            <li class="instructions__item">
+              <span class="icon">🎂</span>
+              <p class="instructions__text text">Unlock new cake or pie</p>
+            </li>
+          </ul>
+        </div>
+        <h3 class="instructions__download text">
+          A challenging and relaxing game to exercise your brain! Sort cakes and
+          pies now to relax after a stressful day!
+        </h3>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.falcon.dm.water.cake.sort.puzzle&hl=en"
+          class="instructions__link google-play__link"
+        >
+          <img
+            src="assets/img/google-play-icon.png"
+            alt=""
+            class="instructions__icon google-play__icon"
+          />
+        </a>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer-bottom">
+            <ul class="footer-bottom__list">
+              <li class="footer-bottom__item">
+                <a class="text" href="terms.html">TERMS & CONDITIONS</a>
+              </li>
+              <li class="footer-bottom__item">
+                <a class="text" href="privacy.html">PRIVACY POLICY</a>
+              </li>
+              <li class="footer-bottom__item text">
+                All rights reserved cakesortplay.com | 2024
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/typing.js"></script>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Владислава</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Переключатель навигации"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Обо мне</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Опыт работы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Мой стек</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Проекты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__left">
+          <h1 class="hero__title">Привет, я Владислава!</h1>
+          <p class="hero__text">Frontend-разработчик</p>
+        </div>
+        <div class="hero__right">
+          <img src="assets/image/photo.jpg" alt="" class="hero__img" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="about__title">Обо мне</h2>
+        <ul class="about__list">
+          <li class="about__item">
+            Начинающий Frontend-разработчик из города Озёрск
+          </li>
+          <li class="about__item">
+            Пришла во Frontend разработку, чтобы разрабатывать крутые интерфейсы
+            и максимально улучшать пользовательский опыт
+          </li>
+          <li class="about__item">
+            Практикую навыки на:
+            <a href="https://www.codewars.com/" class="about__link">Codewars</a>
+            и активно изучаю справочник:
+            <a href="https://learn.javascript.ru/" class="about__link"
+              >JavaScript</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="experience" id="experience">
+        <h2 class="experience__title">Опыт работы</h2>
+        <ul class="experience__list">
+          <li class="experience__item">МБДОУ ДС№55 "Золотой ключик"</li>
+          <li class="experience__item">Сентябрь 2020 - по настоящее время</li>
+          <li class="experience__item">Озёрск, Россия</li>
+        </ul>
+      </section>
+
+      <div class="skills" id="skills">
+        <h2 class="skills__title">Мой стек</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img
+              src="https://dastan64.github.io/assets/images/html.svg"
+              alt="html"
+              class="skills__img"
+            />
+            <p class="skills__desc">HTML</p>
+          </li>
+          <li class="skills__item">
+            <img
+              src="https://dastan64.github.io/assets/images/css.svg"
+              alt="css"
+              class="skills__img"
+            />
+            <p class="skills__desc">CSS</p>
+          </li>
+          <li class="skills__item">
+            <img
+              src="https://dastan64.github.io/assets/images/js.svg"
+              alt="JS"
+              class="skills__img"
+            />
+            <p class="skills__desc">JS</p>
+          </li>
+        </ul>
+        <h3 class="skills__other">Инструменты и прочее</h3>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img
+              src="https://dastan64.github.io/assets/images/vscode.svg"
+              alt="VS Code"
+              class="skills__img"
+            />
+            <p class="skills__desc">VS Code</p>
+          </li>
+          <li class="skills__item">
+            <img
+              src="https://dastan64.github.io/assets/images/git.svg"
+              alt="Git"
+              class="skills__img"
+            />
+            <p class="skills__desc">Git</p>
+          </li>
+        </ul>
+      </div>
+
+      <section class="projects" id="projects">
+        <h2 class="projects__title">Проекты</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card" style="width: 95%">
+              <div class="card-body">
+                <h5 class="card-title">Cat trip</h5>
+                <p class="card-text">Промо страничка</p>
+                <a href="projects/Cat Trip/main.html" class="btn btn-primary"
+                  >Перейти</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card" style="width: 95%">
+              <div class="card-body">
+                <h5 class="card-title">Cake sort</h5>
+                <p class="card-text">Промо страничка</p>
+                <a
+                  href="projects/cakesortplay/main.html"
+                  class="btn btn-primary"
+                  >Перейти</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>
